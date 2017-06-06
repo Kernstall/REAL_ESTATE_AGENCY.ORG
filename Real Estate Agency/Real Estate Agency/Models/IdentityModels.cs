@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Collections.Generic;
 
 namespace Real_Estate_Agency.Models
 {
@@ -11,6 +12,12 @@ namespace Real_Estate_Agency.Models
     {
         public string Name { get; set; }
         public string Surname { get; set; }
+
+
+        public ICollection<Advertisement> RentedAdvertisments { get; set; }
+
+        public ICollection<Advertisement> OwnerAdvertisments { get; set; }
+
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
