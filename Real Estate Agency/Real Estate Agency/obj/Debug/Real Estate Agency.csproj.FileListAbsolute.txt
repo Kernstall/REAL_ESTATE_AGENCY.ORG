@@ -202,3 +202,5 @@ C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug
 C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug\Real Estate Agency.pdb
 C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug\Real_Estate_Agency.Migrations.Initial.resources
 C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug\Real Estate Agency.csproj.GenerateResource.Cache
+C:\!Учеба\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug\Real_Estate_Agency.Migrations.Initial.resources
+C:\!Учеба\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug\Real Estate Agency.csproj.GenerateResource.Cache

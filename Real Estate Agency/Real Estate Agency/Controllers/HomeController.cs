@@ -16,8 +16,9 @@ namespace Real_Estate_Agency.Controllers
         
         public ActionResult About()
         {
-            using (var context = new ApplicationDbContext
+            using (var context = ApplicationDbContext.Create())
             {
+                var users = context.Users.Where(m => m.Name == "kokoko").ToList();
 
             }
                 ViewBag.Message = "Your application description page.";
