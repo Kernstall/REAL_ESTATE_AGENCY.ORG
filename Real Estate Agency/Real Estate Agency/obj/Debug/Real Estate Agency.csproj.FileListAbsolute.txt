@@ -99,3 +99,106 @@ C:\!Учеба\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\
 C:\!Учеба\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug\Real Estate Agency.csprojResolveAssemblyReference.cache
 C:\!Учеба\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug\Real Estate Agency.dll
 C:\!Учеба\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug\Real Estate Agency.pdb
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ApplicationInsights.config
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\roslyn\csc.exe
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\roslyn\System.Collections.Immutable.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\roslyn\System.Reflection.Metadata.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\roslyn\vbc.exe
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\roslyn\VBCSCompiler.exe
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\roslyn\VBCSCompiler.exe.config
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Real Estate Agency.dll.config
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Real Estate Agency.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Real Estate Agency.pdb
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Antlr3.Runtime.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\EntityFramework.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\EntityFramework.SqlServer.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AI.Agent.Intercept.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AI.DependencyCollector.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AI.Web.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AI.WindowsServer.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.ApplicationInsights.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AspNet.Identity.Core.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.Cookies.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.Facebook.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.Google.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.OAuth.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.Twitter.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Web.Infrastructure.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Newtonsoft.Json.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Owin.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.Helpers.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.Mvc.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.Optimization.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.Razor.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.WebPages.Deployment.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.WebPages.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.WebPages.Razor.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\WebGrease.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AI.DependencyCollector.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AI.Web.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AI.WindowsServer.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.ApplicationInsights.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.Helpers.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.Mvc.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.Optimization.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.Razor.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.WebPages.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.WebPages.Deployment.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\System.Web.WebPages.Razor.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Antlr3.Runtime.pdb
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Newtonsoft.Json.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\EntityFramework.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\EntityFramework.SqlServer.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AspNet.Identity.Core.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.Facebook.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.Cookies.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.OAuth.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.Google.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.Twitter.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\System.Web.Helpers.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\System.Web.Mvc.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\System.Web.Optimization.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\System.Web.Razor.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\System.Web.WebPages.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\EntityFramework.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\Microsoft.Owin.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug\Real Estate Agency.csprojResolveAssemblyReference.cache
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug\Real Estate Agency.dll
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug\Real Estate Agency.pdb
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug\Real_Estate_Agency.Migrations.Initial.resources
+C:\BSU\UP\REAL_ESTATE_AGENCY.ORG\Real Estate Agency\Real Estate Agency\obj\Debug\Real Estate Agency.csproj.GenerateResource.Cache

@@ -70,6 +70,16 @@ namespace Real_Estate_Agency.Models
         public string Email { get; set; }
 
         [Required]
+        [StringLength(100, ErrorMessage = "Значение {0} должно содержать не менее {2} символов.", MinimumLength = 2)]
+        [Display(Name = "Имя")]
+        public string Name { get; set; }
+
+        [Required]
+        [StringLength(100, ErrorMessage = "Значение {0} должно содержать не менее {2} символов.", MinimumLength = 2)]
+        [Display(Name = "Фамилия")]
+        public string Surname { get; set; }
+
+        [Required]
         [StringLength(100, ErrorMessage = "Значение {0} должно содержать не менее {2} символов.", MinimumLength = 6)]
         [DataType(DataType.Password)]
         [Display(Name = "Пароль")]
