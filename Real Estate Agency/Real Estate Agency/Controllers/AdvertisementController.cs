@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using Real_Estate_Agency.Models;
 using Real_Estate_Agency;
 using Microsoft.AspNet.Identity;
+using System.Web.UI;
 
 namespace Real_Estate_Agency.Controllers
 {
@@ -114,9 +115,17 @@ namespace Real_Estate_Agency.Controllers
         public ActionResult Details(Advertisement ad)
         {
             var userId = User.Identity.GetUserId();
+            if (userId == ad.OwnerId)
+            {
+                return View("Error");
+            }
             using (var context = ApplicationDbContext.Create())
             {
                 ad = context.Advertisements.Include("Owner").Single(m => m.Id == ad.Id);
+                if (userId == ad.OwnerId)
+                {
+                    return View("Error");
+                }
                 ad.RenterId = userId;
                 context.SaveChanges();
             }

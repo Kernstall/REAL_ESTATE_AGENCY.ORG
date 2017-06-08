@@ -278,6 +278,7 @@
     <Content Include="Views\Advertisement\SuccessfulCreated.cshtml" />
     <Content Include="Views\Advertisement\Search.cshtml" />
     <Content Include="Views\Advertisement\Details.cshtml" />
+    <Content Include="Views\Advertisement\Error.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
