@@ -1,0 +1,65 @@
+﻿@model Real_Estate_Agency.Models.UnionModels
+@{
+    ViewBag.Title = "Search";
+    ViewBag.PlaceHolder = "Введите поисковый запрос";
+
+}
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Search</h2>
+
+@using (Html.BeginForm("Search", "Advertisement", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <hr />
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.SearchModel.SearchLine, new { @class = "form-control", placeholder = ViewBag.PlaceHolder})            
+        </div>
+        <div class="col-md-2 col-md-pull-7">
+            <input type="submit" class="btn btn-default" value="Найти" />
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-5">
+             @Html.Label("Размер")
+             @Html.TextBoxFor(m => m.SearchModel.SizeFrom, new { @class = "form-control", placeholder = "От" })
+             @Html.TextBoxFor(m => m.SearchModel.SizeTo, new { @class = "form-control", placeholder = "До" })
+        </div>
+         <div class="col-md-5">
+             @Html.Label("Цена")
+             @Html.TextBoxFor(m => m.SearchModel.PriceFrom, new { @class = "form-control", placeholder = "От" })
+             @Html.TextBoxFor(m => m.SearchModel.PriceTo, new { @class = "form-control", placeholder = "До" })
+        </div>
+    </div>
+}
+<hr />
+<style>
+    #item {
+        width: 67.3%;
+        border: 1px solid #d0cdcd;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 5px 5px 5px 5px;
+        font-size: 18px;
+    }
+</style>
+
+@foreach (var item in Model.AdsList)
+{
+        <div id="item">
+            @Html.ActionLink(item.Header, "Details", new {id = item.Id })
+            <p>Цена за ночь: @item.Price</p>
+        </div>
+
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+

@@ -10,7 +10,7 @@ namespace Real_Estate_Agency
     {
         public int Id { get; set; }
 
-        public Guid OwnerId { get; set; }
+        public string OwnerId { get; set; }
         public ApplicationUser Owner { get; set; }
 
         public string Header { get; set; }
@@ -18,7 +18,7 @@ namespace Real_Estate_Agency
         public int Size { get; set; }
         public string Adress { get; set; }
         public int Price { get; set; }
-        public Guid RenterId { get; set; } 
+        public string RenterId { get; set; } 
         public ApplicationUser Renter { get; set; }
     }
 }

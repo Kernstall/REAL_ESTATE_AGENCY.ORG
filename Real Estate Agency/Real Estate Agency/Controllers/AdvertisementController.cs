@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 
 namespace Real_Estate_Agency.Controllers
 {
+
     public class AdvertisementController : Controller
     {
         [HttpGet]
@@ -19,10 +20,19 @@ namespace Real_Estate_Agency.Controllers
             return View();
         }
 
+        [HttpGet]
         public ActionResult Search()
         {
             ViewBag.Title = "";
-            return View();
+            using (var context = ApplicationDbContext.Create())
+            {
+                var newModel = new UnionModels
+                {
+                    SearchModel = new SearchModels(),
+                    AdsList = context.Advertisements.Where(m => String.IsNullOrEmpty(m.RenterId)).ToList()
+                };
+                return View(newModel);
+            }
         }
 
 
@@ -42,8 +52,8 @@ namespace Real_Estate_Agency.Controllers
                     Content = model.Content,
                     Price = Convert.ToInt32(model.Price),
                     Size = Convert.ToInt32(model.Size),
-                    OwnerId = Guid.Parse(userId),
-                    RenterId = new Guid(-1, 0, 0, new byte[8])                   
+                    OwnerId = userId,
+                    RenterId = null
                 };
                 context.Advertisements.Add(ad);
                 context.SaveChanges();
@@ -55,20 +65,63 @@ namespace Real_Estate_Agency.Controllers
             return View();
         }
 
-        public ActionResult Search(SearchModels model)
+        [HttpPost]
+        public ActionResult Search(UnionModels model)
         {
             using (var context = ApplicationDbContext.Create())
             {
-
+                var m = model.SearchModel;
+                if (String.IsNullOrEmpty(m.SizeFrom)) m.SizeFrom = "0";
+                if (String.IsNullOrEmpty(m.SizeTo)) m.SizeTo = "100000000";
+                if (String.IsNullOrEmpty(m.PriceFrom)) m.PriceFrom = "0";
+                if (String.IsNullOrEmpty(m.PriceTo)) m.PriceTo = "100000000";
+                if (String.IsNullOrEmpty(m.SearchLine)) m.SearchLine = "";
+                int sizeFrom = Convert.ToInt32(m.SizeFrom);
+                int sizeTo = Convert.ToInt32(m.SizeTo);
+                int priceFrom = Convert.ToInt32(m.PriceFrom);
+                int priceTo = Convert.ToInt32(m.PriceTo);
                 var ads = context.Advertisements.Where(a =>
-                    (a.Header.Contains(model.SearchLine)) && 
-                        a.Size >= Convert.ToInt32(model.SizeFrom) &&
-                        a.Size <= Convert.ToInt32(model.SizeTo) &&
-                        a.Price >= Convert.ToInt32(model.PriceFrom) &&
-                        a.Price <= Convert.ToInt32(model.PriceTo)).ToList();
-                return View(ads);
+                    (a.Header.Contains(m.SearchLine)) &&
+                        a.Size >= sizeFrom &&
+                        a.Size <= sizeTo &&
+                        a.Price >= priceFrom &&
+                        a.Price <= priceTo &&
+                        String.IsNullOrEmpty(a.RenterId)).ToList();
+                var newModel = new UnionModels()
+                {
+                    SearchModel = m,
+                    AdsList = ads
+                };
+                return View(newModel);
             }
             return View();
         }
+
+        [HttpGet]
+        [Authorize]
+        public ActionResult Details(int id)
+        {
+            using (var context = ApplicationDbContext.Create())
+            {
+                var ad = context.Advertisements.Single(m => m.Id == id);
+                return View(ad);
+            }
+           
+        }
+
+        [HttpPost]
+        [Authorize]
+        public ActionResult Details(Advertisement ad)
+        {
+            var userId = User.Identity.GetUserId();
+            using (var context = ApplicationDbContext.Create())
+            {
+                ad = context.Advertisements.Include("Owner").Single(m => m.Id == ad.Id);
+                ad.RenterId = userId;
+                context.SaveChanges();
+            }
+            return RedirectToAction("Search", "Advertisement");
+        }
+
     }
 }

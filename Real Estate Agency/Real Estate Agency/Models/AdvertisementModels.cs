@@ -24,15 +24,15 @@ namespace Real_Estate_Agency.Models
         public string Content { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "Поле {0} не может быть пустым.", MinimumLength = 1)]
-        [RegularExpression("[^0-9]", ErrorMessage = "Поле {0} должно содержать только цифры")]
-        [Display(Name = "Метраж в квадратных метрах")]
+        [StringLength(8, ErrorMessage = "Поле {0} не должно содержать больше {1} символов")]
+        [RegularExpression("^[0-9]+$", ErrorMessage = "Поле {0} должно содержать только цифры")]
+        [Display(Name = "Метраж")]
         public string Size { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "Поле {0} не может быть пустым.", MinimumLength = 1)]
-        [RegularExpression("[^0-9]", ErrorMessage = "Поле {0} должно содержать только цифры")]
-        [Display(Name = "Стоимость в шекелях")]
+        [StringLength(8, ErrorMessage = "Поле {0} не должно содержать больше {1} символов")]
+        [RegularExpression("^[0-9]+$", ErrorMessage = "Поле {0} должно содержать только цифры")]
+        [Display(Name = "Стоимость за ночь в шекелях")]
         public string Price { get; set; }
     }
 }

@@ -1,0 +1,52 @@
+﻿@model Real_Estate_Agency.Advertisement
+@{
+    ViewBag.Title = "Details";
+    ViewBag.ad = Model;
+}
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Details", "Advertisement", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+<style>
+    #ad
+    {
+        font-size: 16px;
+    }
+</style>
+
+<h2>Объявление</h2>
+
+<div id="ad">
+<p>
+    @Model.Header
+</p>
+
+<p>
+    Адрес: @Model.Adress
+</p>
+
+<p>
+    Описание: @Model.Content
+</p>
+
+<p>
+    Метраж: @Model.Size
+</p>
+
+<p>
+    Цена: @Model.Price
+</p>
+    <div class="form-group">
+        <div class="col-md-10">
+            <input type="submit" class="btn btn-default" value="Забронировать" />
+        </div>
+    </div>
+</div> 
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

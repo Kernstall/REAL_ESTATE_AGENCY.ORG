@@ -9,7 +9,7 @@
 
 <h2>@ViewBag.Title.</h2>
 
-@using (Html.BeginForm("Create", "Advertisement"))
+@using (Html.BeginForm("Create", "Advertisement", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
 {
      @Html.AntiForgeryToken()
      <hr />
@@ -53,4 +53,4 @@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
-}*
+}
