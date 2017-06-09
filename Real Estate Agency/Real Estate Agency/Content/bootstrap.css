@@ -1,3 +1,4 @@
+
 /* NUGET: BEGIN LICENSE TEXT
  *
  * Microsoft grants you the right to use these script files for the sole
@@ -6813,4 +6814,16 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+#MyA:hover
+{
+    background-color:#C46200;
+}
+#MyA{
+    padding-top:10px;
+    min-height:60px;
+    font-size:18px;
+}
+#Override a{
+    min-height:60px;
 }
