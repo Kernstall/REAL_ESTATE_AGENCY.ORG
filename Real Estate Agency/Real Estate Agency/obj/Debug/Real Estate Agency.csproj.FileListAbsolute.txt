@@ -307,3 +307,4 @@ C:\!Учеба\REA.com\Real Estate Agency\Real Estate Agency\obj\Debug\Real_Esta
 C:\!Учеба\REA.com\Real Estate Agency\Real Estate Agency\obj\Debug\Real Estate Agency.csproj.GenerateResource.Cache
 C:\!Учеба\REA.com\Real Estate Agency\Real Estate Agency\obj\Debug\Real Estate Agency.dll
 C:\!Учеба\REA.com\Real Estate Agency\Real Estate Agency\obj\Debug\Real Estate Agency.pdb
+C:\!Учеба\REA.com\Real Estate Agency\Real Estate Agency\obj\Debug\Real_Estate_Agency.Migrations.Test.resources

@@ -50,6 +50,7 @@
 
 @foreach (var item in Model.AdsList)
 {
+
         <div id="item">
             @Html.ActionLink(item.Header, "Details", new {id = item.Id })
             <p>Цена за ночь: @item.Price</p>

@@ -24,7 +24,10 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li id="MyA">@Html.ActionLink("Создать объявление", "Create", "Advertisement")</li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li id="MyA">@Html.ActionLink("Создать объявление", "Create", "Advertisement")</li>
+                    }
                     <li id="MyA">@Html.ActionLink("Объявления", "Search", "Advertisement")</li>
                     <li id="MyA">@Html.ActionLink("Контакт", "Contact", "Home")</li>
                 </ul>

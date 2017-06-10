@@ -8,6 +8,7 @@ namespace Real_Estate_Agency
 {
     public class Advertisement
     {
+        public DateTime Date { get; set; }
         public int Id { get; set; }
 
         public string OwnerId { get; set; }

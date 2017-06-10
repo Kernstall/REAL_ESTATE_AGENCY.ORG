@@ -54,7 +54,9 @@ namespace Real_Estate_Agency.Controllers
                     Price = Convert.ToInt32(model.Price),
                     Size = Convert.ToInt32(model.Size),
                     OwnerId = userId,
-                    RenterId = null
+                    RenterId = null,
+                    Date = DateTime.Now
+
                 };
                 context.Advertisements.Add(ad);
                 context.SaveChanges();
@@ -64,6 +66,23 @@ namespace Real_Estate_Agency.Controllers
             }
 
             return View();
+        }
+
+
+        public class Comparer : IComparer<Advertisement>
+        {
+            public int Compare(Advertisement x, Advertisement y)
+            {
+                if(x.Price < y.Price)
+                {
+                    return 1;
+                }
+                else if (x.Price == y.Price)
+                {
+                    return 0;
+                }
+                return -1;
+            }
         }
 
         [HttpPost]
@@ -88,6 +107,7 @@ namespace Real_Estate_Agency.Controllers
                         a.Price >= priceFrom &&
                         a.Price <= priceTo &&
                         String.IsNullOrEmpty(a.RenterId)).ToList();
+                ads = ads.OrderBy(a => a.Price).ToList();
                 var newModel = new UnionModels()
                 {
                     SearchModel = m,
